@@ -14,6 +14,22 @@ body {
     padding: 20px;
     line-height: 1.6;
     color: #333;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("flyer_background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.12;
+    z-index: -1;
 }
 
 header {
@@ -219,12 +235,12 @@ UiB Ocean
 <h2>Partners and Sponsors</h2>
 
 <div class="logos">
-<img src="CaptureUiB.PNG" alt="UiB logo">
+<img src="CaptureUiB.png" alt="UiB logo">
 <img src="VILVITE_logo_centered2.jpg" alt="VilVite logo">
 <img src="HiOOS_logo.png" alt="HiOOS logo">
-<img src="CaptureSEAS5.PNG" alt="SEAS logo">
+<img src="CaptureSEAS5.png" alt="SEAS logo">
 <img src="EU_flag_normal-reproduction-low-resolution.jpg" alt="EU flag">
-<img src="Logo-Marie-Curie-Actions.jpg" alt="Marie Curie Actions logo">
+<img src="Logo-Marie-Curie-Actions_logo6.jpg" alt="Marie Curie Actions logo">
 </div>
 
 <footer>
